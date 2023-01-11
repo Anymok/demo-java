@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4026b63-a5b1-4c1b-a227-0442696228ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/TestDelete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/TestInsertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/TestSelect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/TestUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDaoJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/entites/Fournisseur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestConnexionJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="d4026b63-a5b1-4c1b-a227-0442696228ef" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/ihm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDaoJdbc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +72,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1673427915865</updated>
-      <workItem from="1673427917411" duration="14491000" />
+      <workItem from="1673427917411" duration="18117000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1673452761295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673452761295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
