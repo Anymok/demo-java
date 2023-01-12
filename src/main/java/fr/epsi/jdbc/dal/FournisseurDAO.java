@@ -5,7 +5,7 @@ import fr.epsi.jdbc.entites.Fournisseur;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface FournisseurDao {
+public interface FournisseurDAO {
     List<Fournisseur> extraire() throws SQLException;
     void insert(Fournisseur fournisseur) throws SQLException;
     int update(String ancienNom, String nouveauNom) throws SQLException;

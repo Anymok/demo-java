@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class FournisseurDaoJdbc implements FournisseurDao{
+public class FournisseurJDBCDAO implements FournisseurDAO {
 
     private static final String SELECT_QUERY = "SELECT * FROM fournisseur";
     private static final String INSERT_QUERY = "INSERT INTO fournisseur (NOM) VALUES ('%s')";
