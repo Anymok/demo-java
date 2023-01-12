@@ -10,4 +10,9 @@ public interface FournisseurDAO {
     void insert(Fournisseur fournisseur) throws SQLException;
     int update(String ancienNom, String nouveauNom) throws SQLException;
     boolean delete(Fournisseur fournisseur) throws SQLException;
+
+    List<Fournisseur> extraireSecuriser() throws SQLException;
+    void insertSecuriser(Fournisseur fournisseur) throws SQLException;
+    int updateSecuriser(String ancienNom, String nouveauNom) throws SQLException;
+    boolean deleteSecuriser(Fournisseur fournisseur) throws SQLException;
 }

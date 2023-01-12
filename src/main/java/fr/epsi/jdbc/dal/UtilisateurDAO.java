@@ -9,6 +9,7 @@ public interface UtilisateurDAO {
 
     List<Utilisateur> extraire() throws SQLException;
     void insert(Utilisateur utilisateur) throws SQLException;
-    Utilisateur authentifier(String identifiant, String mdp);
+    Utilisateur authentifier(String identifiant, String mdp) throws SQLException;
+    Utilisateur authentifierSecuriser(String identifiant, String mdp) throws SQLException;
 
 }

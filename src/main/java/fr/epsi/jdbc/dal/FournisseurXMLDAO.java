@@ -29,4 +29,24 @@ public class FournisseurXMLDAO implements FournisseurDAO {
         System.out.println("Delete XML");
         return false;
     }
+
+    @Override
+    public List<Fournisseur> extraireSecuriser() throws SQLException {
+        return new ArrayList<>();
+    }
+
+    @Override
+    public void insertSecuriser(Fournisseur fournisseur) throws SQLException {
+
+    }
+
+    @Override
+    public int updateSecuriser(String ancienNom, String nouveauNom) throws SQLException {
+        return 0;
+    }
+
+    @Override
+    public boolean deleteSecuriser(Fournisseur fournisseur) throws SQLException {
+        return false;
+    }
 }

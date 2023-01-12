@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4026b63-a5b1-4c1b-a227-0442696228ef" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/DAOFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurXMLDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurJDBCDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/entites/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/error/StoreModeNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/app-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDaoJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurJDBCDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/DAOFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/DAOFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurJDBCDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurJDBCDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurXMLDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/FournisseurXMLDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurJDBCDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/dal/UtilisateurJDBCDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/ihm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/epsi/jdbc/ihm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/app-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/app-config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673427915865</updated>
       <workItem from="1673427917411" duration="18275000" />
-      <workItem from="1673507547792" duration="5357000" />
+      <workItem from="1673507547792" duration="9986000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1673452761295</created>
@@ -98,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673456378527</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1673516154442</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673516154442</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

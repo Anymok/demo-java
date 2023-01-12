@@ -32,4 +32,19 @@ public class DAOFactory {
         }
         return dao;
     }
+
+    public static UtilisateurDAO getUtilisateurDAO() throws StoreModeNotFoundException {
+
+        UtilisateurDAO dao;
+        switch ( STORE_MODE ) {
+            case "JDBC":
+                dao = new UtilisateurJDBCDAO();
+                break;
+            case "XML":
+                // TODO à implémenter
+            default:
+                throw new StoreModeNotFoundException(STORE_MODE);
+        }
+        return dao;
+    }
 }
